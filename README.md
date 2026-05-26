@@ -4,7 +4,7 @@
 > A small, polished Phaser 3 game built from a single static folder — drop it on
 > any web server (or just open `index.html` over a local file server) and play.
 
-![cat art warning](https://img.shields.io/badge/sprites-placeholder-orange)
+![cat art warning](https://img.shields.io/badge/sprites-cat-orange)
 
 ## Play
 
