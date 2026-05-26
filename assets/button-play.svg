@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 56" width="140" height="56">
+  <rect x="3" y="3" width="134" height="50" rx="14" ry="14" fill="#ffae3a" stroke="#5b3a14" stroke-width="3"/>
+  <rect x="9" y="9" width="122" height="14" rx="6" ry="6" fill="#ffd28a" opacity="0.8"/>
+  <text x="70" y="38" text-anchor="middle" font-family="'Trebuchet MS', sans-serif" font-weight="900" font-size="22" fill="#5b3a14">PLAY</text>
+</svg>

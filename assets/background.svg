@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 720" width="480" height="720" preserveAspectRatio="xMidYMid slice">
+  <!-- Sky background placeholder. Replace with your own sky art. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ed4ff"/>
+      <stop offset="0.6" stop-color="#bfeaff"/>
+      <stop offset="1" stop-color="#e8f7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="720" fill="url(#sky)"/>
+
+  <!-- Sun -->
+  <circle cx="380" cy="120" r="48" fill="#fff5b8"/>
+  <circle cx="380" cy="120" r="34" fill="#ffe071"/>
+
+  <!-- Distant city silhouette near bottom -->
+  <g fill="#a4d8c4" opacity="0.85">
+    <rect x="0"   y="560" width="60"  height="60"/>
+    <rect x="55"  y="540" width="50"  height="80"/>
+    <rect x="100" y="570" width="70"  height="50"/>
+    <rect x="160" y="520" width="60"  height="100"/>
+    <rect x="210" y="555" width="80"  height="65"/>
+    <rect x="280" y="540" width="55"  height="80"/>
+    <rect x="325" y="565" width="70"  height="55"/>
+    <rect x="385" y="530" width="55"  height="90"/>
+    <rect x="430" y="555" width="55"  height="65"/>
+  </g>
+
+  <!-- Clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="80"  cy="110" rx="48" ry="16"/>
+    <ellipse cx="110" cy="100" rx="28" ry="14"/>
+    <ellipse cx="60"  cy="100" rx="22" ry="12"/>
+
+    <ellipse cx="250" cy="240" rx="52" ry="17"/>
+    <ellipse cx="280" cy="232" rx="30" ry="14"/>
+
+    <ellipse cx="420" cy="320" rx="40" ry="14"/>
+    <ellipse cx="395" cy="312" rx="22" ry="12"/>
+
+    <ellipse cx="120" cy="400" rx="44" ry="14"/>
+    <ellipse cx="95"  cy="395" rx="22" ry="11"/>
+  </g>
+</svg>

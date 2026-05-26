@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 112" width="48" height="112" shape-rendering="crispEdges">
+  <!-- Tileable ground strip (horizontal). 112px tall. -->
+  <rect x="0" y="0"   width="48" height="14" fill="#7ed957"/>
+  <rect x="0" y="14"  width="48" height="4"  fill="#3aa83a"/>
+
+  <!-- Grass tufts (kept inside the viewBox so they don't get clipped) -->
+  <path d="M2 14 L4 4 L6 14 Z M10 14 L12 2 L14 14 Z M22 14 L24 6 L26 14 Z M34 14 L36 3 L38 14 Z M42 14 L44 5 L46 14 Z" fill="#86e25c"/>
+
+  <rect x="0" y="18"  width="48" height="22" fill="#d8a05a"/>
+  <rect x="0" y="40"  width="48" height="6"  fill="#a87338"/>
+  <rect x="0" y="46"  width="48" height="60" fill="#c98a4a"/>
+  <rect x="0" y="106" width="48" height="6"  fill="#7e4d24"/>
+
+  <!-- Diagonal stripe accent (alternates by tile when repeated) -->
+  <path d="M0 24 L48 36 L48 32 L0 20 Z" fill="#b97a44" opacity="0.6"/>
+  <path d="M0 60 L48 72 L48 68 L0 56 Z" fill="#b97a44" opacity="0.6"/>
+  <path d="M0 96 L48 108 L48 104 L0 92 Z" fill="#b97a44" opacity="0.6"/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140">
+  <!-- "Get Ready" tap hand. -->
+  <g stroke="#1a2a3a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="#fff7e6">
+    <path d="M48 96 L48 50 Q 48 42 56 42 Q 64 42 64 50 L64 76"/>
+    <path d="M64 64 Q 64 58 72 58 Q 80 58 80 64 L80 84"/>
+    <path d="M80 70 Q 80 64 88 64 Q 96 64 96 70 L96 90"/>
+    <path d="M96 76 Q 96 70 102 70 Q 108 70 108 76 L108 100 Q 108 124 84 124 L62 124 Q 38 124 38 100 L38 96 Z"/>
+  </g>
+  <!-- Tap pulse rings -->
+  <g fill="none" stroke="#ffffff" stroke-width="3" opacity="0.85">
+    <path d="M28 20 Q 32 16 36 20"/>
+    <path d="M22 28 Q 30 18 38 28"/>
+    <path d="M16 36 Q 28 18 40 36"/>
+  </g>
+</svg>

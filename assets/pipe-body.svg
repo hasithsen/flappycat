@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32" width="80" height="32" shape-rendering="crispEdges">
+  <!-- Tileable pipe shaft. Tile vertically (Phaser TileSprite) between pipe-cap and screen edge. -->
+  <rect x="0" y="0" width="80" height="32" fill="#5fbf3a"/>
+  <rect x="0" y="0" width="10" height="32" fill="#8be35c"/>
+  <rect x="10" y="0" width="6" height="32" fill="#aaf48b"/>
+  <rect x="60" y="0" width="14" height="32" fill="#3e9722"/>
+  <rect x="74" y="0" width="6" height="32" fill="#266a15"/>
+  <rect x="0" y="0" width="2" height="32" fill="#266a15"/>
+  <rect x="78" y="0" width="2" height="32" fill="#1c4c0f"/>
+</svg>

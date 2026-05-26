@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="64" height="48" shape-rendering="geometricPrecision">
+  <!-- Placeholder cat sprite. Replace this file with your own art (any raster or vector format).
+       Recommended canvas: 64x48, with the same proportions for best physics fit. -->
+  <defs>
+    <radialGradient id="body" cx="0.35" cy="0.4" r="0.75">
+      <stop offset="0" stop-color="#ffd28a"/>
+      <stop offset="1" stop-color="#f08a3a"/>
+    </radialGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e7c8a8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tail -->
+  <path d="M8 28 Q -2 22 4 14 Q 8 18 12 22 Z" fill="#f08a3a" stroke="#7a3b10" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Wing (back) -->
+  <path d="M28 26 Q 18 18 14 28 Q 22 30 30 30 Z" fill="url(#wing)" stroke="#7a3b10" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- Body -->
+  <ellipse cx="34" cy="26" rx="22" ry="16" fill="url(#body)" stroke="#7a3b10" stroke-width="1.5"/>
+
+  <!-- Belly patch -->
+  <ellipse cx="32" cy="32" rx="14" ry="8" fill="#fff7e6"/>
+
+  <!-- Tabby stripes -->
+  <path d="M30 14 q 4 -4 8 0" fill="none" stroke="#7a3b10" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M40 16 q 4 -3 7 1" fill="none" stroke="#7a3b10" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M22 22 q 3 -3 6 -1" fill="none" stroke="#7a3b10" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Ears -->
+  <path d="M22 12 L26 4 L30 14 Z" fill="#f08a3a" stroke="#7a3b10" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M42 14 L46 4 L50 12 Z" fill="#f08a3a" stroke="#7a3b10" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M24 10 L26 6 L28 12 Z" fill="#ff9ec0"/>
+  <path d="M44 12 L46 6 L48 10 Z" fill="#ff9ec0"/>
+
+  <!-- Eye whites -->
+  <circle cx="40" cy="22" r="5.2" fill="#ffffff" stroke="#7a3b10" stroke-width="1.2"/>
+  <circle cx="50" cy="22" r="4.2" fill="#ffffff" stroke="#7a3b10" stroke-width="1.2"/>
+
+  <!-- Pupils (looking forward/up) -->
+  <circle cx="41.5" cy="21.5" r="2.4" fill="#1a1a1a"/>
+  <circle cx="51" cy="21.5" r="2.0" fill="#1a1a1a"/>
+  <circle cx="42.2" cy="20.6" r="0.8" fill="#ffffff"/>
+  <circle cx="51.6" cy="20.7" r="0.7" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M45 27 L47 27 L46 28.6 Z" fill="#ff7faa" stroke="#7a3b10" stroke-width="0.8" stroke-linejoin="round"/>
+
+  <!-- Mouth -->
+  <path d="M46 28.6 Q 44 31 42 29.5 M46 28.6 Q 48 31 50 29.5" fill="none" stroke="#7a3b10" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Wing (front, flap) -->
+  <path d="M30 24 Q 22 16 18 26 Q 26 28 32 28 Z" fill="url(#wing)" stroke="#7a3b10" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>

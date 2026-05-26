@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" width="360" height="96">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe071"/>
+      <stop offset="1" stop-color="#ff9b3a"/>
+    </linearGradient>
+  </defs>
+  <g font-family="'Trebuchet MS', system-ui, sans-serif" font-weight="900" font-size="64" text-anchor="middle">
+    <text x="182" y="70" fill="#1a2a3a" stroke="#1a2a3a" stroke-width="10" stroke-linejoin="round" paint-order="stroke">FLAPPYCAT</text>
+    <text x="180" y="68" fill="url(#lg)">FLAPPYCAT</text>
+  </g>
+</svg>
